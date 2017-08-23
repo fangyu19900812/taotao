@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-//import com.taotao.common.pojo.EasyUIDataGridResult;
+import com.taotao.common.pojo.EasyUIDataGridResult;
 //import com.taotao.common.pojo.TaotaoResult;
 //import com.taotao.common.utils.ExceptionUtil;
 //import com.taotao.common.utils.IDUtils;
@@ -42,7 +42,7 @@ public class ItemServiceImpl implements ItemService {
 		return item;
 	}
 
-	/*@Override
+	@Override
 	public EasyUIDataGridResult getItemList(int page, int rows) {
 		
 		//分页处理
@@ -63,7 +63,7 @@ public class ItemServiceImpl implements ItemService {
 		return result;
 	}
 
-	@Override
+	/*@Override
 	public TaotaoResult addItem(TbItem item, TbItemDesc itemDesc, String itemParams) {
 		try {
 			//生成商品id

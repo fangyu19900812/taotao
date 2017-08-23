@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-//import com.taotao.common.pojo.EasyUIDataGridResult;
+import com.taotao.common.pojo.EasyUIDataGridResult;
 //import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.pojo.TbItem;
 import com.taotao.pojo.TbItemDesc;
@@ -34,7 +34,7 @@ public class ItemController {
 	 * @param rows
 	 * @return
 	 */
-	/*@RequestMapping("/list")
+	@RequestMapping("/list")
 	@ResponseBody
 	public EasyUIDataGridResult getItemList(@RequestParam(defaultValue="1") Integer page, 
 			@RequestParam(defaultValue="30") Integer rows) {
@@ -44,7 +44,7 @@ public class ItemController {
 		return result;
 		
 	}
-	
+	/*
 	@RequestMapping("/save")
 	@ResponseBody
 	//添加一个itemParams参数接收规格参数的数据。
