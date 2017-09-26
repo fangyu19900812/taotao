@@ -14,7 +14,7 @@ public class FastdfsTest {
 	@Test
 	public void testUpload() throws Exception{
 		
-		ClientGlobal.init("E:\\Workspaces\\eclipse\\taotao\\taotao-manager\\taotao-manager-web\\src\\main\\resources\\properties\\client.conf");
+		ClientGlobal.init("F:\\workspace\\taotao\\taotao-manager\\taotao-manager-web\\src\\main\\resources\\properties\\client.conf");
 		TrackerClient trackerClient = new TrackerClient();
 		TrackerServer trackerServer = trackerClient.getConnection();
 	
