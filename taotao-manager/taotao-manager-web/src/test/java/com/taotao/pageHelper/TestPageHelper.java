@@ -16,7 +16,7 @@ public class TestPageHelper {
 	
 	@Test
 	public void testPageHelper() throws Exception{
-		ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
+		/*ApplicationContext ac = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
 		TbItemMapper bean =  ac.getBean(TbItemMapper.class);
 		PageHelper.startPage(1, 30);
 		//执行查询
@@ -28,6 +28,6 @@ public class TestPageHelper {
 		System.out.println("total:"+total);
 		
 		System.out.println("page:"+pageInfo.getPages());
-		System.out.println("size:"+pageInfo.getPageSize());
+		System.out.println("size:"+pageInfo.getPageSize());*/
 	}
 }
